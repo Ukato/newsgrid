@@ -1,0 +1,166 @@
+<!----------------------------------------------------------------
+|
+| Site Name: News Grid
+|
+| I broke ground for this site on November 7th, 2020.
+| You can learn more about me at: coryschmidt.info
+|
+| If you are a malicious bot, you can go
+| 01100100 01101001 01110110 01101001 01100100 01100101
+| 00100000 01100010 01111001 00100000 00110000
+| 
+| otherwise,
+| Hello, and welcome!
+|
+|---------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="This site is a learning project from Brad Traversy's Udemy course on HTML and CSS.">
+  <meta name="keywords" content="html css practice news">
+  <meta name="robots" content="NOINDEX, NOFOLLOW">
+  <script src="https://kit.fontawesome.com/d26adfcc6a.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Staatliches&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px" href="./css/mobile.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <title>NewsGrid | Latest News</title>
+</head>
+<body>
+  <nav id="main-nav">
+    <div class="container">
+      <a class="logo" href="#"><img src="img/logo.png" alt="site logo"></a>
+      <div class="social">
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+      </div>
+      <ul>
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Showcase -->
+  <header id="showcase">
+    <div class="container">
+      <div class="showcase-container">
+        <div class="showcase-content">
+          <div class="category category-sports">Sports</div>
+          <h1>Some Sports Article</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga quod, ratione nisi qui, at eum, quae fugit autem corrupti voluptatum eius sapiente voluptates. Atque ducimus veritatis eum ratione aut exercitationem?</p>
+          <a href="article.html" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Home Articles -->
+  <section id="home-articles" class="py-2">
+    <div class="container">
+      <h2>Editor Picks</h2>
+      <div class="articles-container">
+        <article class="card">
+          <img src="img/articles/ent1.jpg" alt="">
+          <div>
+            <div class="category category-ent">Entertainment</div>
+            <h3>
+              <a href="article.html">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid sapiente sint tempore. Doloribus dolores repudiandae fuga necessitatibus eius quia!</p>
+          </div>
+        </article>
+        <article class="card bg-dark">
+          <div class="category category-sports">Sports</div>
+          <h3>
+            <a href="article.html">Lorem ipsum dolor sit amet.</a>
+          </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid sapiente sint tempore. Doloribus dolores repudiandae fuga necessitatibus eius quia!</p>
+        </article>
+        <article class="card">
+          <img src="img/articles/tech1.jpg" alt="">
+          <div class="category category-tech">Technology</div>
+          <h3>
+            <a href="article.html">Lorem ipsum dolor sit amet.</a>
+          </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid sapiente sint tempore. Doloribus dolores repudiandae fuga necessitatibus eius quia!</p>
+        </article>
+        <article class="card">
+          <div class="category category-sports">Sports</div>
+          <h3>
+            <a href="article.html">Lorem ipsum dolor sit amet.</a>
+          </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid sapiente sint tempore. Doloribus dolores repudiandae fuga necessitatibus eius quia!</p>
+          <img src="img/articles/sports1.jpg" alt="">
+        </article>
+        <article class="card">
+          <img src="img/articles/tech2.jpg" alt="">
+          <div class="category category-tech">Technology</div>
+          <h3>
+            <a href="article.html">Lorem ipsum dolor sit amet.</a>
+          </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid sapiente sint tempore. Doloribus dolores repudiandae fuga necessitatibus eius quia!</p>
+        </article>
+        <article class="card bg-primary">
+          <div class="category category-sports">Sports</div>
+          <h3>
+            <a href="article.html">Lorem ipsum dolor sit amet.</a>
+          </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid sapiente sint tempore. Doloribus dolores repudiandae fuga necessitatibus eius quia!</p>
+        </article>
+        <article class="card">
+          <div>
+            <div class="category category-ent">Entertainment</div>
+            <h3>
+              <a href="article.html">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid sapiente sint tempore. Doloribus dolores repudiandae fuga necessitatibus eius quia!</p>
+          </div>
+          <img src="img/articles/ent2.jpg" alt="">
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="main-footer" class="py-2">
+    <div class="container footer-container">
+      <div>
+        <img src="img/logo_light.png" alt="newsgrid">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde blanditiis ut ipsa tempore. Ad eveniet porro, rerum eligendi ducimus temporibus.</p>
+      </div>
+      <div>
+        <h3>Email Newsletter</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <form>
+          <input type="email" placeholder="Enter Email">
+          <input type="submit" value="Subscribe" class="btn btn-primary">
+        </form>
+      </div>
+      <div>
+        <h3>Site Links</h3>
+        <ul class="list">
+          <li><a href="#">Help & Support</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Join Our Club</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, iste?</p>
+        <a href="#" class="btn btn-secondary">Join Now!</a>
+      </div>
+      
+    </div>
+    <div class="copyright p-1">
+        <p>Copyright &copy; 2020, All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
